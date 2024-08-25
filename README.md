@@ -1,17 +1,14 @@
-# flutter_geojson
+## 概要
 
-A new Flutter project.
+- flutterでgeojsonを処理するサンプルアプリ
+- 東京都千代田区の施設を地図上に表示する
+- 施設を検索すると、その施設が表示される
 
-## Getting Started
+## 環境構築
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter_geojson
+```
+flutter clean
+flutter pub get
+open -a Simulator
+flutter run
+```
